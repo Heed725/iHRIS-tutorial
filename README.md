@@ -29,6 +29,7 @@ another country.
 | Integrate another system | [APIs and integrations](docs/14-apis-integrations.md) |
 | Test before production | [Testing and quality assurance](docs/15-testing-quality-assurance.md) |
 | Follow a complete implementation plan | [Rwanda project blueprint](docs/16-rwanda-project-blueprint.md) |
+| Share, restore, and automate database backups | [Database handover and recovery](docs/17-database-handover-backup-restore.md) |
 
 ## What is iHRIS?
 
