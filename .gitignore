@@ -1,0 +1,9 @@
+.env
+*.backup
+*.dump
+*.log
+backups/
+node_modules/
+dist/
+config/baseConfig.json
+secrets/
