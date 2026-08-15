@@ -94,3 +94,7 @@ data-quality report and documentation update.
 
 Quarterly: full restore rehearsal, disaster-recovery exercise, privileged-access
 review, vulnerability assessment and country configuration release review.
+
+For a complete database handover, deployment, cron backup, previous-database
+recovery, and validation procedure, continue to
+[Database handover and recovery](17-database-handover-backup-restore.md).
