@@ -21,6 +21,14 @@ another country.
 | Put it on a production server | [Production deployment](docs/06-production-deployment.md) |
 | Fix common failures | [Troubleshooting](docs/07-troubleshooting.md) |
 | Back up, secure, and maintain it | [Operations and security](docs/08-operations-security.md) |
+| Learn FHIR from the beginning | [FHIR practical guide](docs/09-fhir-practical-guide.md) |
+| Set up a programmer workflow | [Development workflow](docs/10-development-workflow.md) |
+| Import existing HR data | [Migration and bulk import](docs/11-migration-bulk-import.md) |
+| Build reports and dashboards | [Reports and Elasticsearch](docs/12-reports-dashboards.md) |
+| Configure users and permissions | [Keycloak and access control](docs/13-keycloak-access-control.md) |
+| Integrate another system | [APIs and integrations](docs/14-apis-integrations.md) |
+| Test before production | [Testing and quality assurance](docs/15-testing-quality-assurance.md) |
+| Follow a complete implementation plan | [Rwanda project blueprint](docs/16-rwanda-project-blueprint.md) |
 
 ## What is iHRIS?
 
@@ -141,6 +149,27 @@ iHRIS/
 8. add authentication, TLS, backups and monitoring.
 9. deploy to staging and conduct user acceptance testing.
 10. promote the tested release to production.
+
+## Suggested 12-week beginner course
+
+| Week | Practical outcome |
+|---:|---|
+| 1 | Understand containers, services, FHIR and the repository structure |
+| 2 | Run iHRIS locally and diagnose startup failures |
+| 3 | Read Practitioner, PractitionerRole and Location resources |
+| 4 | Create a separate Rwanda site/configuration repository |
+| 5 | Model identifiers, terminology and administrative locations |
+| 6 | Build profiles and questionnaires with FSH/SUSHI |
+| 7 | Configure pages, roles, tasks and approval workflows |
+| 8 | Prepare and validate a small migration dataset |
+| 9 | Build reports, reconcile counts and test permissions |
+| 10 | Configure authentication, TLS, secrets and backups |
+| 11 | Conduct performance, security and restore testing |
+| 12 | Deploy staging, complete UAT and rehearse production cutover |
+
+Each week should finish with evidence: commands used, screenshots, sample FHIR
+resources, test results, a Git commit and a short operations note. Do not learn
+directly on the live national database.
 
 ## Example: what “iHRIS Rwanda” means
 
